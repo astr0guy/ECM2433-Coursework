@@ -1,0 +1,3 @@
+gcc -ansi -I./ -c ca.c ca.o
+gcc -ansi -I./ -c coursework.c coursework.o
+gcc ca.o coursework.o -o coursework
